@@ -1,0 +1,88 @@
+.main {
+  background-color: $main_background-color;
+  width: 100%;
+}
+.chigy__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5rem 1rem 5rem;
+}
+.chigy__content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 40rem;
+}
+.chigy__title {
+  font-size: $title-second_size;
+  font-weight: $title-second_weight;
+  line-height: $title-big_line-height;
+  color: $main_color;
+  margin: 1rem 0rem 2rem;
+}
+.chigy__subtitle {
+  font-size: $text-font-size;
+  font-weight: bold;
+  color: $main_color;
+  margin-bottom: 3rem;
+}
+.chigy__text {
+  font-weight: $text_font-weight;
+  font-size: $text-font-size;
+  line-height: $text-line_height;
+  color: $main_color;
+  margin-bottom: 3rem;
+}
+.chigy__imagebox {
+  width: 25%;
+}
+.chigy__image {
+  width: 100%;
+  max-width: 100%;
+  height: 90%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+.button {
+  align-self: center;
+}
+@media screen and (max-width: 575px) {
+  .chigy__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .chigy__content {
+    width: 80vw;
+    text-align: left;
+  }
+  .button:hover {
+    text-decoration: none;
+    background: rgba(208, 108, 97, 0.9);
+    color: $minor_color;
+  }
+  .chigy__imagebox {
+    width: 90%;
+    height: 70%;
+  }
+  .chigy__image {
+    width: 100%;
+    margin: 5rem 0rem 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .chigy__imagebox {
+    width: 40%;
+    margin-top: 3rem;
+  }
+  .chigy__image {
+    height: 80%;
+  }
+  .chigy__content {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+}

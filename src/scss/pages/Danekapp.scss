@@ -1,0 +1,79 @@
+.Danekapp {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5rem 1rem 5rem;
+  background: $main_background-color;
+  text-align: left;
+}
+.Danekapp__title {
+  margin: 1rem 0rem 2rem;
+  font-weight: $title-second_weight;
+  font-size: $title-second_size;
+  line-height: $title-big_line-height;
+  color: $main_color;
+}
+.Danekapp__article {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  font-weight: $text_font-weight;
+  font-size: $text-font-size;
+  line-height: $text-line_height;
+  color: $main_color;
+}
+.Danekapp__article-description_heroes {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: $main_color;
+}
+.Danekapp__article-description_actions {
+  color: $main_color;
+  margin-bottom: 3rem;
+}
+.Danekapp__imagebox {
+  width: 25%;
+}
+.Danekapp__image {
+  max-width: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 575px) {
+  .Danekapp {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Danekapp__article-description {
+    margin-bottom: 3rem;
+  }
+  .Danekapp__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+  }
+  .Danekapp__imagebox {
+    width: 90%;
+    height: 70%;
+  }
+  .Danekapp__image {
+    margin: 5rem 0rem 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .Danekapp {
+    padding: 11.5rem 1rem 11.5rem;
+  }
+  .Danekapp__article {
+    width: 48%;
+  }
+  .Danekapp__imagebox {
+    width: 40%;
+    margin-top: 3rem;
+  }
+  .Danekapp__article-description {
+    margin-bottom: 2rem;
+  }
+}

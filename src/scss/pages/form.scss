@@ -1,0 +1,123 @@
+.form-main {
+  width: 100%;
+  background-color: $main_background-color;
+  padding: 5rem 5rem;
+}
+.form-main__title {
+  padding-bottom: 5rem;
+  font-size: $title-second_size;
+  font-weight: $title-second_weight;
+  line-height: $title-big_line-height;
+  text-align: center;
+  color: #002b48;
+}
+.form-content {
+  display: flex;
+  justify-content: space-between;
+}
+.form-main_requisites {
+  width: 45vw;
+  padding-top: 1rem;
+  float: left;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 3.1rem;
+  color: #002b48;
+}
+.form-feedbackform {
+  width: 35vw;
+  height: 26rem;
+  background-color: #e35b4ee5;
+  display: grid;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  grid-template-rows: 1fr 1fr 1fr 3fr 1.5fr;
+  row-gap: 1rem;
+  color: #000000cc;
+  border-radius: 10px;
+}
+.form-feedbackform__title {
+  grid-row: 1/2;
+  align-self: end;
+  margin: 0;
+  padding-top: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+}
+.form-feedbackform_email {
+  grid-row: 2/3;
+}
+.form-feedbackform_name {
+  grid-row: 3/4;
+}
+.form-feedbackform_text {
+  grid-row: 4/5;
+}
+.form-feedbackform_button {
+  grid-row: 5/6;
+  justify-self: end;
+  align-self: start;
+  border: none;
+  background: #147dc3;
+  font-weight: 800;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 19px;
+  transition: 0.5s;
+  border-radius: 100px;
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .form-main {
+    padding: 16rem 3rem 16rem;
+  }
+  .form-main__title {
+    padding-bottom: 3rem;
+  }
+  .form-main_requisites {
+    padding-top: 0.5rem;
+    line-height: 2.2rem;
+  }
+  .form-feedbackform {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+  .form-feedbackform__title {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .form-main {
+    padding: 3rem 2rem;
+  }
+  .form-main__title {
+    padding-bottom: 1.5rem;
+  }
+  .form-content {
+    display: unset;
+  }
+  .form-main_requisites {
+    width: 100%;
+    float: none;
+    padding-top: 0;
+    margin-bottom: 1.5rem;
+
+    line-height: 2rem;
+    text-align: justify;
+  }
+  .form-feedbackform {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: normal;
+  }
+}
+@media screen and (max-width: 281px) {
+  .form-feedbackform {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}

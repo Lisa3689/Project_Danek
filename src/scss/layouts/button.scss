@@ -1,0 +1,22 @@
+.button {
+  width: 12rem;
+  height: 4rem;
+  background: rgba(231, 76, 60);
+  border-radius: 2.5rem;
+  color: $minor_color;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0rem 0.3rem 0rem;
+  font-weight: $text_font-weight;
+  font-size: 1.5rem;
+}
+.button:hover {
+  text-decoration: none;
+  background: rgba(208, 108, 97, 0.9);
+  color: $minor_color;
+}
