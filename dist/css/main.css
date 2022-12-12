@@ -415,8 +415,11 @@ template {
 .header__token {
   margin-right: 0.3rem;
 }
+.languages_button{
+  background: rgba(26, 127, 196, 0.9);
+}
 
-.header__button_lang {
+.languages_button{
   width: 4.5rem;
   margin-left: 4.5rem;
   background: rgba(26, 127, 196, 0.9);
@@ -426,6 +429,18 @@ template {
   text-align: center;
   letter-spacing: 0.07em;
 }
+
+
+/*.header__button_lang {
+  width: 4.5rem;
+  margin-left: 4.5rem;
+  background: rgba(26, 127, 196, 0.9);
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+  text-align: center;
+  letter-spacing: 0.07em;
+}*/
 
 .header__button_lang_orange {
   background: rgba(246, 143, 54, 0.9);
