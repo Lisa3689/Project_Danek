@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danek</title>
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto+Slab:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="header__logo" href="#">
+            <img
+              class="header__logo_img d-inline-block align-center"
+              src="./design/images/logo.svg"
+              alt="logo"
+          /></a>
+          <div class="navbar-container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Переключатель навигации"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav">
+                <a class="header__link nav-link text-dark" href="#tomain"
+                  >Home</a
+                >
+                <a
+                  class="header__link nav-link text-dark"
+                  href="./design/kurak.html"
+                  >Kurak</a
+                >
+                <a
+                  class="header__link nav-link text-dark"
+                  href="./design/Danekapp.html"
+                  >Our app</a
+                >
+                <a
+                  class="header__link nav-link text-dark"
+                  href="./design/chigy.html"
+                  >Chigu</a
+                >
+                <a class="header__button header__button_lang" href="#"> EN</a>
+              </div>
+            </div>
+          </div>
+          <a
+            href="./design/form.html"
+            class="header__button header__button_help"
+          >
+            <img
+              class="header__token"
+              src="./design/images/token.png"
+              alt="token"
+            />Donate
+          </a>
+        </nav>
+      </header>
+      <main class="index-content" id="tomain">
+        <section class="index-content__about">
+          <div>
+            <h2 class="index-content__about__headline">About us</h2>
+            <p class="index-content__about__text_bold">
+              Welcome to the Danek Web Portal!
+            </p>
+            <p>
+              Our products can help children to learn more about rich culture of
+              nomadic Turkic people and wide range of species of the fauna
+              included in the Red Book of the World.
+            </p>
+          </div>
+          <img
+            class="index-content__about__img_logo"
+            src="./design/images/index/big-logo-img.png"
+            alt="Лого"
+          />
+        </section>
+        <div class="index-characters">
+          <div
+            class="index-characters__img_denis"
+            data-title="Deniz. He’s extremely kind and friendly person who loves animals and active games."
+          >
+            <img src="./design/images/index/boy.png" alt="Deniz" />
+          </div>
+          <div
+            class="index-characters__img_danaya"
+            data-title="Danaya. She’s cheerful and brave girl with great desire to help people."
+          >
+            <img src="./design/images/index/girl.png" alt="Danaya" />
+          </div>
+          <div
+            class="index-characters__img_chick"
+            data-title="Merlin Chick. He has watchful eye and lightning-fast moves besides he full of care."
+          >
+            <img src="./design/images/index/bird.png" alt="Merlin Chick" />
+          </div>
+          <div
+            class="index-characters__img_bek"
+            data-title="Snow leopard Bek. This leopard is strong, fast but friendly cat."
+          >
+            <img
+              src="./design/images/index/snow-leopard.png"
+              alt="Snow leopard Bek"
+            />
+          </div>
+        </div>
+        <section class="index-products">
+          <h3>Our products</h3>
+          <div class="index-products__images">
+            <img
+              class="index-products__images_app"
+              src="./design/images/Danekapp.png"
+              alt="Application Danek"
+            />
+            <img src="./design/images/kurak.png" alt="Board game «Kurak»" />
+            <img
+              class="index-products__images_comic"
+              src="./design/images/comic.svg"
+              alt="Comic «The mystery of Chigu»"
+            />
+          </div>
+          <div class="index-products__descriptions">
+            <p>Application for mobile phones and gadgets «Danek»</p>
+            <p>Original board game «Kurak»</p>
+            <p>Comic «The mystery of Chigu»</p>
+          </div>
+          <div class="index-products__buttons">
+            <a href="./design/Danekapp.html">Learn more</a>
+            <a href="./design/kurak.html">Learn more</a>
+            <a href="./design/chigy.html">Learn more</a>
+          </div>
+          <div class="index-products_mobile-only">
+            <div class="index-products__app_mobile-only">
+              <img
+                class="index-products__images_app"
+                src="./design/images/index/mobile-app.png"
+                alt="Application Danek"
+              />
+              <p>Application for mobile phones and gadgets «Danek»</p>
+              <a href="./design/Danekapp.html">Learn more</a>
+            </div>
+            <div class="index-products__boardgame_mobile-only">
+              <img
+                src="./design/images/index/boardgame.png"
+                alt="Board game «Kurak»"
+              />
+              <p>Original board game «Kurak»</p>
+              <a href="./design/kurak.html">Learn more</a>
+            </div>
+            <div class="index-products__comic_mobile-only">
+              <img
+                src="./design/images/comic.svg"
+                alt="Comic «The mystery of Chigu»"
+              />
+              <p>Comic «The mystery of Chigu»</p>
+              <a href="./design/chigy.html">Learn more</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h3 class="footer__title">Contact us:</h3>
+        <div class="footer__socials">
+          <a
+            class="footer__icons"
+            href="https://www.instagram.com/invites/contact/?i=10jk0vrx1dqb0&utm_content=21t9h2a"
+            target="_blank"
+          >
+            <img
+              class="footer__icon footer__icon_insta"
+              src="./design/images/instagram.svg"
+              alt="instagram"
+            />
+          </a>
+          <a
+            class="footer__icons"
+            href="mailto:danekportal@gmail.com"
+            target="_blank"
+          >
+            <img
+              class="footer__icon footer__icon_mail"
+              src="./design/images/message.svg"
+              alt="mail"
+            />
+          </a>
+          <a class="footer__icons" href="tel:+996551051150" target="_blank">
+            <img
+              class="footer__icon footer__icon_phone"
+              src="./design/images/phone.svg"
+              alt="telephone"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
