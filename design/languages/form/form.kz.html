@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chigy</title>
-    <link rel="stylesheet" href="../dist/css/main.css" />
+    <title>Danek</title>
+    <link rel="stylesheet" href="/dist/css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,8 +24,8 @@
         <header class="header header_color">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="header__logo" href="../index.html">
-                    <img class="header__logo_img d-inline-block align-center" src="./images/logo.svg" alt="logo" /></a>
-                <div class="navbar-container">
+                    <img class="header__logo_img d-inline-block align-center" src="/design/images/logo.svg" alt="logo" /></a>
+                <div class="navbar-container"> 
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Переключатель навигации">
@@ -33,66 +33,66 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="header__link nav-link text-light" href="../index.html">На главную</a>
+                            <a class="header__link nav-link text-light" href="../index.html">Башкы</a>
                             <a class="header__link nav-link text-light" href="kurak.html">Курак</a>
-                            <a class="header__link nav-link text-light" href="Danekapp.html">Приложение</a>
+                            <a class="header__link nav-link text-light" href="Danekapp.html">Колдонмо</a>
                             <a class="header__link nav-link text-light" href="chigy.html">Чигу</a>
                             <div class="dropdown">
                                 <a class="btn btn-secondary dropdown-toggle languages_button_orange" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
                                 Язык</a>
-                                  <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">RU</a></li>
-                                  <li><a class="dropdown-item" href="#">EN</a></li>
-                                  <li><a class="dropdown-item" href="#">KY</a></li>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">RU</a></li>
+                                    <li><a class="dropdown-item" href="#">EN</a></li>
+                                    <li><a class="dropdown-item" href="#">KY</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <a href="form.html" class="header__button header__button_help">
-                    <img class="header__token" src="./images/token.png" alt="token" />Донат
+                    <img class="header__token" src="/design/images/token.png" alt="token" />Донат
                 </a>
             </nav>
         </header>
-        <main class="main">
-            <section class="chigy">
-                <div class="chigy__container">
-                    <div class="chigy__content">
-                        <h1 class="chigy__title">Тайна Чигу</h1>
-                        <p class="chigy__subtitle">Серия комиксов</p>
-                        <p class="chigy__text">
-                            Герои Даная и Деңиз обретают новых волшебных друзей Бека и Чика.
-                        </p>
-                        <p class="chigy__text">
-                            Ожившие игрушки рассказывают детям Тайну затерянного города Чигу
-                            на дне озёра Иссык-Куль.
-                        </p>
-                        <p class="chigy__text">
-                            Животные вместе с детьми отправятся в увлекательное путешествие
-                            по следам Шёлкового Пути, чтобы вернуть артефакт в город Чигу.
-                            На помощь к ним придут животные и растения из Красной Книги.
-                        </p>
-                        <a href="#buy" class="button">Купить</a>
-                    </div>
-                    <div class="chigy__imagebox">
-                        <img src="./images/comic.svg" class="chigy__image" alt="chigy_image" />
-                    </div>
-                </div>
+        <main class="form-main">
+            <h1 class="form-main__title">Danek долбооруна жардам бериңиз</h1>
+            <section class="form-content">
+                <p class="form-main_requisites">
+                    Сиз бизге өнүмдөрүбүздү илгерилетүүгө жана өнүктүрүүгө, ошондой эле жаңыларын түзүүгө жардам бере аласыз:<br />
+                    ✅ Сураныч, социалдык тармактарда биз тууралуу маалымат бөлүшүңүз<br />
+                    ✅ Биздин продукцияларды сатып алыңыз<br />
+                    ✅ Төмөнкү реквизиттерди колдонуу менен кайрымдуулук түрүндө каржылык жардам көрсөтүңүз:<br />
+                    PayPal: danekportal@gmail.com<br />
+                    Элсом: 0551051150<br />
+                    Биздин портал өнүмдөрүн өнүктүрүүгө жана алдыга жылдырууга болгон кызыгууңуз жана жардамыңыз үчүн рахмат!<br />
+                </p>
+                <form class="form-feedbackform">
+                    <h2 class="form-feedbackform__title">
+                        Пикир формасы биз менен
+                    </h2>
+                    <input class="form-feedbackform_email" type="email" pattern=".+@globex\.com" required
+                        placeholder="Электрондук почтанын дареги" />
+                    <input class="form-feedbackform_name" type="text" placeholder="Толук аты" required />
+                    <textarea class="form-feedbackform_text" placeholder="Салам! Менин атым…"></textarea>
+                    <button class="form-feedbackform_button" type="submit">
+                        Жөнөтүү
+                    </button>
+                </form>
             </section>
         </main>
         <footer class="footer footer_color">
-            <h3 class="footer__title footer__title_color">Обратная связь:</h3>
+            <h3 class="footer__title footer__title_color">Kайра байланыш</h3>
             <div class="footer__socials">
                 <a class="footer__icons"
                     href="https://www.instagram.com/invites/contact/?i=10jk0vrx1dqb0&utm_content=21t9h2a"
                     target="_blank">
-                    <img class="footer__icon footer__icon_insta" src="./images/instagram.svg" alt="instagram" />
+                    <img class="footer__icon footer__icon_insta" src="/design/images/instagram.svg" alt="instagram" />
                 </a>
                 <a class="footer__icons" href="mailto:danekportal@gmail.com" target="_blank">
-                    <img class="footer__icon footer__icon_mail" src="./images/message.svg" alt="mail" />
+                    <img class="footer__icon footer__icon_mail" src="/design/images/message.svg" alt="mail" />
                 </a>
                 <a class="footer__icons" href="tel:+996551051150" target="_blank">
-                    <img class="footer__icon footer__icon_phone" src="./images/phone.svg" alt="telephone" />
+                    <img class="footer__icon footer__icon_phone" src="/design/images/phone.svg" alt="telephone" />
                 </a>
             </div>
         </footer>
